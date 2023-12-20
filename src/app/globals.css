@@ -16,7 +16,7 @@
   background: #1D1B22
 }
 
-.bg-pink-gradient {
+.bg-pink-gradient2 {
   background: linear-gradient(
     157.81deg,
     #def9fa -43.27%,
@@ -77,8 +77,8 @@
 }
 
 .bg-pink-gradient {
-  background-color: #0093e9;
   background-image: linear-gradient(45deg, #4ac2e7 0%, #9c21a5 50%);
+  filter: blur(123px);
 }
 
 .bg-black-gradient {

@@ -10,7 +10,7 @@ const Navbar = () => {
           <Link href="/">
             <Image
               src="/logo.png"
-              alt="Academia Numen"
+              alt="Academia Numen Logo"
               width={263}
               height={60}
               priority
@@ -20,7 +20,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="mr-5 ">
+      <div className="mr-5 h-full">
         <ul className="md:flex gap-x-6 text-white">
           <li className="hover:bg-[#29A9FF] hover:text-black px-4 py-2 rounded-full font-bold">
             <Link href="/motion">

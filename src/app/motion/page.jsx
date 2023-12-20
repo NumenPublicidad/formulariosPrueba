@@ -29,6 +29,7 @@ const Modern = () => {
             alt="Greek Picture"
             className="relative"
           />
+          {/* <div className="absolute w-[30%] h-[40%] z-0 left-11 -bottom--1/2 rounded-full blue-light-gradient " /> */}
         </motion.div>
       </div>
 
@@ -44,7 +45,7 @@ const Modern = () => {
             <div className="flex flex-col lg:flex-row w-full mb-3 lg:gap-2">
               <input
                 placeholder="Nombre"
-                className="bg-violet-100/5 border rounded-3xl placeholder-text-white/50 px-4 py-5 w-full focus:border-blue-500 outline-none"
+                className="bg-violet-100/5 border rounded-3xl placeholder-text-white/50 px-4 py-5 w-full focus:border-blue-500 outline-none mb-3 lg:mb-0"
               />
               <input
                 placeholder="Apellido"
