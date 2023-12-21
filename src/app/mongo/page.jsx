@@ -42,7 +42,7 @@ const MongoForm = () => {
     setError(msg);
   }
   return (
-    <div className=" p-4 mx-auto flex flex-col items-center max-w-xl scroll- shadow-lg rounded-lg my-4 bg-white/5 h-screen mt-32 text-white">
+    <div className=" p-4 mx-auto flex flex-col items-center max-w-xl scroll- shadow-lg rounded-lg  bg-white/5 mt-32 text-white relative">
       <div className="absolute w-[70%] h-[90%] z-0 -right-1/2 -bottom-40 rounded-full blue-light-gradient" />
       <h1 className="font-bold text-3xl my-2">Contactános </h1>
       <p>Por favor completá todos los campos</p>
@@ -86,7 +86,7 @@ const MongoForm = () => {
       <div className="flex  flex-col bg-slate-200 hidden">
         <p className="text-red-600 py-2 px-5">Mensaje de error</p>
       </div>
-      <div className="absolute w-[70%] h-[90%] z-0 -left-1/2 -top-40 rounded-full pink__gradient" />
+      {/* <div className="absolute w-[70%] h-[90%] -right-1/2 -bottom-40 rounded-full pink__gradient z-0" /> */}
     </div>
   );
 };

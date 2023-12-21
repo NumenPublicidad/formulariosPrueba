@@ -28,7 +28,7 @@
   );
 }
 
-.text-gradient {
+.text-blue-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
     #def9fa 0.89%,
@@ -44,12 +44,18 @@
   text-fill-color: transparent;
 }
 
-.bg-green-gradient {
-  background: linear-gradient(
-    180deg,
-    #8EFE00 100%,
-    #1B81C4 100%,
-  );
+.text-green-gradient {
+  background: linear-gradient(43deg, #8EFE00 0%, #1B81C4 86%, #1B81C4 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.text-violet-gradient {
+  background: linear-gradient(43deg, #FF0098 0%, #7039C7 90%, #7039C7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .bg-violet-gradient {
