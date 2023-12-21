@@ -71,6 +71,21 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="hover:bg-[#29A9FF] hover:text-black px-4 py-2 rounded-full font-bold">
+            <Link href="/test1">
+              <p>FORM 4</p>
+            </Link>
+          </li>
+          <li className="hover:bg-[#29A9FF] hover:text-black px-4 py-2 rounded-full font-bold">
+            <Link href="/test2">
+              <p>FORM 5</p>
+            </Link>
+          </li>
+          <li className="hover:bg-[#29A9FF] hover:text-black px-4 py-2 rounded-full font-bold">
+            <Link href="/test3">
+              <p>FORM 6</p>
+            </Link>
+          </li>
+          <li className="hover:bg-[#29A9FF] hover:text-black px-4 py-2 rounded-full font-bold">
             <Link href="/contacts">
               <p>FORM 4</p>
             </Link>
