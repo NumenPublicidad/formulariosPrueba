@@ -1,12 +1,21 @@
+"use client";
 import React from "react";
 import { HiMiniPaperAirplane } from "react-icons/hi2";
+import Typewriter from "typewriter-effect";
 
 export default function ContactForm3() {
   return (
     <div className="flex flex col justify-center space-x-32 rounded-lg">
       <div className="w-3/5">
-        <h1 className="text-5xl font-light text-center font-semibold">
-          Let´s work Together
+        <h1 className="text-5xl font-light">
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 50,
+              strings: ["Bienvenidos, dejenos su consulta"],
+            }}
+          />
         </h1>
       </div>
       <form className="grid w-2/5 space-y-5">

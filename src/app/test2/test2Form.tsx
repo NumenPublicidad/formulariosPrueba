@@ -42,8 +42,9 @@ export default function ContactForm2() {
         <textarea
           rows={4}
           required
-          className="w-[70%] mb-10 bg-transparent text-white border-b-2 border-gray-200 focus:outline-none  hover:placeholder-red-700 hover:border-red-700 hover:text-red-700"
+          className="w-[70%] mb-10 bg-transparent text-white border-b-2 border-gray-200 focus:outline-none  hover:placeholder-red-700 hover:border-red-700"
           placeholder="*YOUR MESSAGE"
+          style={{ resize: "none" }}
           autoComplete="off"
         />
       </div>
